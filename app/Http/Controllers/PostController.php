@@ -14,7 +14,7 @@ class PostController extends Controller
         ]);
     }
 
-    public function show(Post $post){
+    public function display(Post $post){
         return view('post', [
             "title" => "Sigle Post",
             "post" => $post
