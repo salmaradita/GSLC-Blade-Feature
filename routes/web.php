@@ -16,13 +16,13 @@ use App\Models\Post;
 */
 
 
-Route::get('/blog', function () {
+Route::get('/', function () {
     return view('post', [
         "title" => "post"
     ]);
 });
 
-Route::get('/blog', [PostController::class, 'index']);
+Route::get('/', [PostController::class, 'index']);
 
 //halaman single posts
 Route::get('/posts/{post:slug}', [PostController::class, 'show']);

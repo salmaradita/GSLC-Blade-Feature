@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <a class="btn btn-primary mt-5" href="/blog" role="button">Back</a>
+    <a class="btn btn-primary mt-5" href="/" role="button">Back</a>
     <br/>
     <br/>
 
